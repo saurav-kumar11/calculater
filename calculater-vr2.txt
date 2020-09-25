@@ -1,0 +1,16 @@
+print("Enter 1st your number")
+firstnum = float(input())
+
+print(" Enter Operater ")
+op = input()
+					
+print("Enter your 2nd number")
+secondnum = float(input())
+if  op == "+":
+    print("Your Answer:", (firstnum) + (secondnum))
+elif op == "-":
+    print("Your Answer:",firstnum - secondnum)
+elif op == "*":
+    print("Your Answer:",firstnum * secondnum)
+elif op == "/":
+    print("Your Answer:",firstnum / secondnum)
